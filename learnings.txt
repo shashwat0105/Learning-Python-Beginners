@@ -1,0 +1,45 @@
+Python is compiled as well as interpreted language
+
+We can't use multidimensional array by importing array, here we use numpy
+
+Python doesn't have pass by value or reference kind of thing unlike C++
+
+4 types of Arguments
+Position, Keyword, Default, Variable length (we use * here)
+
+Functions are objects in Python
+Know what is the difference between filter, reduce and map:
+
+Lambda function are anonymous or nameless function
+
+map: Takes a function f, and a list L1, and returns a list L2 obtained by applying f to every element of L1. 
+Say f is a function that takes x and returns 2x. Then, map(f, [1,2,3,4]) returns [2,4,6,8].
+
+filter: Takes a boolean function f and a list L1. 
+It applies the function to each element of L1, and list of those elements that give true is returned.
+
+
+reduce: Takes a binary operator f, a list L and a seed value (or identity element). 
+It returns the seed value if the list is empty. Otherwise, it applies the binary operator f to the seed and first element of L, 
+then applies f to the result of this and the 2nd element of L, and so on till L is exhausted. 
+The result is returned. This can be seen as a generalization of factorial function.
+i.e. Applies a given function to the iterables and returns a single value.
+
+
+Class has 1) Attributes -> Variables 2) Behavior -> Methods(Functions)
+
+Special :- 1) Special Variables __name__ 2) Special Methods __init__
+
+Special operators
+__add__(self, other) -> self + other
+__sub__(self, other) -> self - other
+__eq__(self, other) -> self == other
+__lt__(self, other) -> self < other
+__len__(self) -> len(self)
+__str__(self) -> print self
+
+
+Inner Class:-
+You can create object of inner class inside the outer class 
+        OR 
+You can create object of inner class outside the object class privided you use the outer class name to call it.
