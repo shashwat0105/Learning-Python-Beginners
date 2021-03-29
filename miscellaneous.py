@@ -47,10 +47,14 @@ for data in f:
     f1.write(data)
 
 
+###### Date & Time in Python
+import datetime as dt 
 
-
-
-
+x = dt.datetime.now()
+print(x)  # prints complete time
+print(x.year) # prints year
+# gooogle date formatting methods in pyhton.
+# strf time()  string formatting time
 
 
 
