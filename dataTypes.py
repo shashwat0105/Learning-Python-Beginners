@@ -8,6 +8,7 @@ x = '1'
 y = 'a'
 z = 'water'
 
+
 ###### METHODS IN PYTHON 
 print(z.title()) # make first letter capital
 print(z.upper()) # will convert to uppercase
