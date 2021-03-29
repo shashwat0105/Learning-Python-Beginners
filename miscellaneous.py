@@ -56,3 +56,18 @@ print(x.year) # prints year
 # gooogle date formatting methods in pyhton.
 # strf time()  string formatting time
 
+#### JSON Files ####
+import json
+
+x = '{"name":"Shashwat", "age":20, "job":"Student"}' #dictionary
+
+# converting python file to json file
+y = json.dumps(x)
+# converting json file to python file 
+z = json.loads(y)
+print(y)
+print(z)
+# both will look same but their type is different
+
+
+ 
