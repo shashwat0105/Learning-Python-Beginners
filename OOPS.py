@@ -106,7 +106,7 @@ class D:
     def feature6(self):
         print("Feature 6 is working")
 
-class E(A, D): # Multiple inhertence
+class E(A, D): # Multiple inhertence ; Python does support multiple inheritance, unlike Java.
     def feature7(self):
         print("Feature 7 is working")
 
