@@ -15,7 +15,7 @@ def translate(word):
         return data[word.title]
     elif word.upper() in data:
         return data[word.upper]    # for USA
-    elif len(get_close_matches(word, data.keys())) > 0:
+    elif len(get_close_matches(word, data.keys())) > 0:   # to match words like supermann to superman
         print("Did you mean %s instead" %get_close_matches(word, data.keys())[0])  # %s is string formatting
         decide = input("Press y for yes & n for no")
         if decide == "y":
