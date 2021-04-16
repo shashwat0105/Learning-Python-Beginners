@@ -63,9 +63,9 @@ def computerMove():
 
     for let in ['O' , 'X']:
         for i in possibleMoves:
-            boardcopy = board[:]
+            boardcopy = board[:]     # creating copy of the variable
             boardcopy[i] = let
-            if isWinner(boardcopy, let):
+            if isWinner(boardcopy, let):  #It's choosing a move only if it knows it'll be the winner after trying all the permutations/states.
                 move = i
                 return move
 
